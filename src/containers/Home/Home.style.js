@@ -39,12 +39,12 @@ export const RevealP = styled.p`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: gray;
 
     transform-origin: left;
     transform: rotateY(90deg);
 
-    transition: transform 10s;
+    transition: transform 1s;
   }
 
   ${({ hide }) => hide && css`
